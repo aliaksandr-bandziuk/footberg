@@ -1,0 +1,79 @@
+/*
+Theme Name: The7
+Theme URI: http://dream-theme.com/the7/
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: Put simply, The7 is THE most customizable WordPress theme on the market. It features 630+ design customization options. People new to multipurpose WordPress themes will be delighted with The7 Design Wizard. It allows to choose basic settings like branding, colors, header layout, etc. and intelligently calculates all the rest. VoilГ , your pro-grade site design is ready in mere minutes. Automatically! Add a seamless integration with Visual Composer page builder, Slider Revolution, WooCommerce, WPML (as well as other most popular plugins), and you get the definitive web-development toolkit. And, yes, it is mobile friendly (certified by Google) and SEO-ready.
+Version: 3.5.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+License URI: License.txt
+Tags: multipurpose, responsive, retina ready, SEO ready, mobile friendly, iOS, material design, clean, minimal, business, corporate, portfolio, creative, photography, one page site, micro site
+Text Domain: the7mk2
+*/
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.blog .dt-format-gallery .dt-format-gallery-coll.full,
+.archive .dt-format-gallery .dt-format-gallery-coll.full,
+.search .dt-format-gallery .dt-format-gallery-coll.full
+{
+display: none;
+}
+
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor {}
+
+.b-catalog {position: absolute; bottom:30px; width: 90%; border: 1px solid rgb(14, 109, 110);}
+.b-catalog th {font-size: 13px; font-weight: normal; color: white; background-color: rgb(14, 109, 110); text-align: center; height: 25px}
+.b-catalog td {font-size: 12px; font-weight: normal; text-align: center; border: 1px solid rgb(14, 109, 110); height: 25px}
+/*.e-table-col-1 {border-left: 0px !important}*/
+.ubermenu-custom-content-padded {text-align: justify;}
+.ubermenu-custom-content-padded a {font-weight: bold;}
+
+#wp-admin-bar-wp-logo {display: none}
+#menu-item-385:hover a, #menu-item-59:hover a {color: #dd3333;}
+
+.ubermenu-submenu, #footer { background-color: #d5d4d4 !important }
+.b-catalog td {color: black}
+.footer .widget-title {color: rgb(14, 109, 110) !important;}
+.footer .textwidget {color: #000000 !important;}
+.footer .textwidget a {color: rgb(14, 109, 110) !important;}
+
+.ubermenu .ubermenu-tabs {min-height: inherit !important}
+.ubermenu .ubermenu-nav .ubermenu-column-1-3 {min-height: inherit !important}
+.ubermenu .ubermenu-nav .ubermenu-column-2-3 {min-height: 500px !important}
+
+@media screen and (min-width: 999px){
+.phantom-logo-off.phantom-sticky.sticky-on .branding .mini-widgets { display: none; visibility: hidden; }
+}
+
+.creators {color: #15685d !important;text-decoration: none !important}
+.bottom-text-block {width: 25%; padding-left: 33px; text-align: left;}
+
+@media screen and (max-width: 970px) {.bottom-text-block {text-align: center !important; width: 100% !important; padding-left: 0px !important} .footer .widget {text-align: center !important}}
+div.ubermenu-content-block.ubermenu-custom-content.ubermenu-custom-content-padded {color: #000000 !important}
+
+.ubermenu .ubermenu-target-text {font-size: 17px; line-height:20px}
+
+.ubermenu-column-1-3 li .ubermenu-target {padding: 12.5px 15px 12.5px !important}
+
+@media screen and (max-width: 900px) {.ultimate-call-to-action {margin: 45px -35px 35px -35px !important} .vc_non_responsive .vc_row .vc_col-sm-4.vc_col-has-fill {width: 100%; margin-bottom: 10px} .b-catalog * {font-size: 11px !important} .vc_non_responsive .vc_row .vc_col-sm-6, .vc_non_responsive .vc_row .vc_col-sm-4,.vc_non_responsive .vc_row .vc_col-sm-8 {width: 100%}}
+.b-catalog {table-layout: fixed; overflow-wrap: break-word;}
+.b-catalog img {max-width: 100%}
+.doctor .vc_column-inner {background-position: right center !important; background-size: 60% !important}
+
+.bottom-text-block {text-align: right !important; padding-top: 30px;}
+
+#menu-item-309 .b-catalog {margin-top: 50px; position: relative !important; width: 100% !important;}
+#menu-item-266 .b-catalog {top: 160px !important}
+#menu-item-267 .b-catalog {top: 90px !important}
+
+.ult-carousel-wrapper {margin-bottom: 0px !important; padding-bottom: 55px !important; background-color: rgba(255, 255, 255, 0.8);}
+
+.slick-track {display: flex !important; align-items: center;}
