@@ -590,6 +590,7 @@
  .ubermenu.ubermenu-transition-slide .ubermenu-active > .ubermenu-submenu.ubermenu-submenu-type-mega,
  .ubermenu:not(.ubermenu-transition-slide) .ubermenu-submenu.ubermenu-submenu-type-mega {
    max-height: 600px;
+   height: 560px;
    overflow-y: auto;
    -webkit-overflow-scrolling: touch;
  }
